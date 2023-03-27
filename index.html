@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Chatbox</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Chatbox</h1>
+        </header>
+
+        <div id="chatbox">
+            <ul>
+                <li class="message"><span>11:23:00 - </span><strong>Frank</strong>: Hey guys! So glad to be here. Nice to meet you all.</li>
+                <li class="message"><span>11:47:00 - </span><strong>Harry</strong>: Boomchaka! Where is all the secret knowledge at? That's what I'm here for.</li>
+                <li class="message"><span>14:37:00 - </span><strong>Jenny</strong>: Anyone wanna play Call of Duty 2?</li>
+                <li class="message"><span>14:59:00 - </span><strong>Vance</strong>: Yea! Let's go! You gonna get owned!</li>
+                <li class="message"><span>17:02:00 - </span><strong>Nancy</strong>: Any room for me guys?</li>
+                <li class="message"><span>22:31:40 - </span><strong>Grant</strong>: I have become death. Destroyer of worlds.</li>
+                <li class="message"><span>22:32:02 - </span><strong>Erin</strong>: Wow! That was fast.</li>
+                <li class="message"><span>22:33:03 - </span><strong>John</strong>: Just leaving a quick message. Hope you guys are living the dream.</li>
+                <li class="message"><span>13:25:06 - </span><strong>Simon</strong>: I have come after you. Who will come after me?</li>
+                <li class="message"><span>23:09:30 - </span><strong>Buku Fro</strong>: I am the one who will guide you.</li>
+                <li class="message"><span>23:09:56 - </span><strong>Acolyte</strong>: Praise Buku!</li>
+            </ul>
+        </div>
+
+        <div id="input">
+            <form action="http://localhost/01_chatbox/process.php" method="post">
+                <input type="text" name="user" placeholder="Enter Your Name">
+                <input type="text" name="message" placeholder="Enter A Message">
+                <input type="submit" name="submit" value="Submit">
+            </form>
+        </div>
+    </div> <!-- /.container -->
+</body>
+
+</html>
